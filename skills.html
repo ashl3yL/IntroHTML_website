@@ -10,24 +10,87 @@
         body
         {background-color:darkgrey;}
         h1
-        {text-align:center;}
+        {
+            text-align:center;
+            color:brown;
+        }
+        h2
+        {color:brown;}
+        p
+        {color:aliceblue;}
+        ul
+        {color:aliceblue;}
+        nav
+        {
+            display:block;
+            background-color:dimgrey;
+            text-align:center;
+            padding:1px;
+        }
+        form
+        {
+            display:block;
+            background-color:dimgrey;
+            padding: 5px;
+            color:aliceblue;
+        }
         footer
         {
             display:block;
-            background-color:darksalmon;
-            color:white;
+            background-color:dimgrey;
+            color:aliceblue;
             text-align:center;
-            padding:5px;
+        }
+
+        .imgdesc
+        {
+            color:dimgrey;
         }
     </style>
 </head>
 <body>
     <h1>Skills</h1>
+    <nav>
+        <h3>
+            <a href="index.html" title="homepage">Home</a>
+            <a href="favorites.html" title="hobbies & interests">Favorites</a>
+            <a href="skills.html" title="origami">Skills</a>
+            <a href="spots.html" title="notsureyet">Spots</a>
+        </h3>
+    </nav>
+    <h2>Origami</h2>
+    <p>Origami is one of my hobbies. I did it a lot when I was elementary cause it was a simple lazy gift to give to classmates on their birthday. As long as I didn't always make the same origami piece for every classmate it was a cute little gift. As of now I do origami to occupy my hands or pass the time so I've forgotten many of the models I used to remember as a child. Two models I remember very clearly are <span style="font-weight:bold">Jo Nakashima's</span> model of the Origami Dragon, as well as a modular origami ball. I memorized the dragon a long time ago because I liked dragons and it looks cool. I like the modular ball because it uses 30 pieces so I can just shut off my brain and repeatedly make the same pieces 30 times. Both the dragon and the ball I've made many many many times, enough that I can definitely teach someone how to make either of them.</p>
+    <h2>Dragon</h2>
+    <div>
+        <img width= "30%" height="30%" src="dragon.jpg" alt="dragon">
+        <h4 class="imgdesc"> A dragon I made a few minutes ago </h4>
+    </div>
+    <h3 style="color:brown">Jo Nakashima</h3>
+    <p>I watched a lot of Jo Nakashima's origami videos because they're easier to follow. He does it relatively slow and the image at the top right of the screen helps a lot.</p>
+    <p>A few of my favorite videos include</p>
+    <ul>
+        <li>Origami Eagle</li>
+        <li>Dollar Bill Hare</li>
+        <li>Plush Origami Tsuru</li>
+    </ul>
+    <iframe width="420" height="315" src="https://youtu.be/kUsxMXwCW8A"></iframe>
+    <h2>Ball</h2>
+    <p> There's actually 3 different "shapes" you can make with the pieces. With 6 of them, you can make a cube, and with 12 of them you can make a different smaller looking ball. I like making the 30 piece one because it looks rounder and it's more time consuming. During my Sophomore year where we were all remote, I made a lot of the modular balls beacuse with my camera off, no one could see me with 20 pieces sprawled out on my table.</p>
+    <div>
+        <img width= "30%" height="30%" src="ball.jpg" alt="modular ball">
+        <h4 class="imgdesc"> One of the many modular balls I have </h4>
+    </div>
+    <h2>Which One Do You Like More?</h2>
+    <form>
+        <input type="radio" id="ball" name="origami piece" value="ball">
+        <label for="ball">Modular Ball</label><br>
+        <input type="radio" id="dragon" name="origami piece" value="dragon">
+        <label for="dragon">Dragon</label><br>
+    </form>
     <footer>
-        <a href="index.html" title="homepage">Home</a>
-        <a href="favorites.html" title="hobbies & interests">Favorites</a>
-        <a href="skills.html" title="origami">Skills</a>
-        <a href="spots.html" title="notsureyet">Spots</a>
+        <p> Copyright © </p>
+        <img width="40%" src="skills_html_check.jpg" alt="skills html check">
+        <!-- I used percents cause I wanted to keep the original proportions of the image -->
     </footer>
 </body>
 </html>

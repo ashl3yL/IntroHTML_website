@@ -10,24 +10,103 @@
         body
         {background-color:darkgrey;}
         h1
-        {text-align:center;}
+        {
+            text-align:center;
+            color:brown;
+        }
+        h2
+        {color:brown;}
+        p
+        {color:aliceblue;}
+        ul
+        {color:aliceblue;}
+        nav
+        {
+            display:block;
+            background-color:dimgrey;
+            text-align:center;
+            padding:1px;
+        }
         footer
         {
             display:block;
-            background-color:darksalmon;
-            color:white;
+            background-color:dimgrey;
+            color:aliceblue;
             text-align:center;
-            padding:5px;
+        }
+        table
+        {
+            display:block;
+            background-color:dimgrey;
+            text-align:center;
+            color:aliceblue;
+        }
+
+        .imgdesc
+        {
+            color:dimgrey;
         }
     </style>
 </head>
 <body>
     <h1>Spots</h1>
+    <nav>
+        <h3>
+            <a href="index.html" title="homepage">Home</a>
+            <a href="favorites.html" title="hobbies & interests">Favorites</a>
+            <a href="skills.html" title="origami">Skills</a>
+            <a href="spots.html" title="notsureyet">Spots</a>
+        </h3>
+    </nav>
+    <h2>My Spots</h2>
+    <p>My dad has always been a big fan of food so he took me to a lot of different places to eat. He'd either take me to eat a new kind of cuisine or he'd take me to try restaurants in the neighborhood so I can get a feel of the food from the restaurants around me. While most spots for good food are from my dad taking me around, my mom is the one for the tourist locations. She would be the one to take me whenever she'd find see new things whether it be the mini golf course by one of the piers and Little Island a bit further down the river or just a walk to browse the christmas windows at Macys. </p>
+    <h2>Places To Eat</h2>
+    <p>I frequent Chinatown a lot. so these are a few places I enjoy eating in.</p>
+    <table>
+        <tr>
+          <th>Restaurant Name</th>
+          <th>Address</th>
+          <th>Description</th>
+          <th>Extra Notes</th>
+        </tr>
+        <tr>
+          <td>Tofu Tofu</td>
+          <td>96 Bowery St</td>
+          <td>A general Korean BBQ place. Very good for a first time Korean Restaurant</td>
+          <td>The owner also owns a separate Korean Fried Chicken Place called Tada</td>
+        </tr>
+        <tr>
+          <td>Yi Ji Shi Mo</td>
+          <td>88 Elizabeth St</td>
+          <td>A very small Chinese noodle place with the absolute best shrimp rolls. Only con is that the wait time for food is stupid long.</td>
+          <td>It's only run by two people which explains the wait time</td>
+        </tr>
+        <tr>
+            <td>Nam Son</td>
+            <td>245 Grand St</td>
+            <td>A Vietnamese restaurant with very large portions of pho, a noodle soup</td>
+            <td>It isn't the only Vietnamese restaurant around but I frequent this one the most</td>
+        </tr>
+      </table>
+      <div>
+        <h3 style="color:brown">Notable Mentions:</h3>
+        <ul>
+            <li>Ajisen Ramen</li>
+            <li>Joe's Shanghai</li>
+            <li>Hometown Hotpot & BBQ</li>
+        </ul>
+      </div>
+      <!-- I didn't feel like adding more restaurants. -->
+    <img width= "30%" height="30%" src="https://media.timeout.com/images/103006799/750/562/image.jpg" alt="a bowl of pho">
+    <h4 class="imgdesc"> A bowl of Pho</h4>
+    <h2>Places To Go</h2>
+    <p>Again, my mom was usually the one who took me places to go. She took me to The Vessel very early on before they forbade people from climbing on it when pepole jumped off. We went when it had just opened so you had to get tickets since they couldn't let in so many people at a time. The wait time was around 3 hours and there was a mall nearby so we wandered around in there. We spent so much time walking around that by the time we were at the bottom of the Vessel about to climb the stairs up, we were already tired of walking. I had some photos we took there but I can't find them.</p>
+    <img width= "30%" height="30%" src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Hudson_Yards_Plaza_March_2019_53.jpg" alt="the vessel">
+    <h4 class="imgdesc"> An Image of The Vessel</h4>
     <footer>
-        <a href="index.html" title="homepage">Home</a>
-        <a href="favorites.html" title="hobbies & interests">Favorites</a>
-        <a href="skills.html" title="origami">Skills</a>
-        <a href="spots.html" title="notsureyet">Spots</a>
+        <p> Copyright © </p>
+        <img width="40%" src="spots_html_check.jpg" alt="spots html check">
+        <!-- I used percents cause I wanted to keep the original proportions of the image -->
     </footer>
 </body>
 </html>
